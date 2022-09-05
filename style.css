@@ -1,0 +1,73 @@
+/* Corpo */
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Product Sans, Serif, Arial;
+}
+
+.Contenitore{
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding: 3%;
+}
+
+/* Immagine Logo */
+header{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 221, 0);
+}
+
+header > img{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Pulsanti{
+  background-color: rgb(0, 221, 0);
+  padding: 1%;
+  text-align: center;
+}
+
+/* Stato monopattini */
+main{
+  margin-top: 2%;
+  color: white;
+}
+
+.Monopattino{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.indirizzo:before{
+  content: "\21A6";
+}
+
+/* Carica Monopattini */
+span > div{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.Low{
+  width: 10%;
+  background-color: rgb(190, 65, 65);
+}
+
+.Medium{
+  width: 25%;
+  background-color: rgb(245, 180, 83);
+}
+
+.High{
+  width: 55%;
+  background-color: rgb(30, 195, 30);
+}
